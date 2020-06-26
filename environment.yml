@@ -2,7 +2,15 @@ name: argopy
 channels:
    - conda-forge
 dependencies:
-   - python
+   - python=3.8
    - jupyter
+   - numpy
+   - matplotlib
+   - pandas
+   - cartopy=0.18
    - xarray
+   - seaborn
    - requests
+   - pip
+   - pip:
+           - cmocean
