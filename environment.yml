@@ -11,6 +11,4 @@ dependencies:
    - xarray
    - seaborn
    - requests
-   - pip
-   - pip:
-           - cmocean
+   - cmocean
